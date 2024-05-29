@@ -7,10 +7,7 @@
 }
 
 /* Dev */
-header,
-header * {
-    outli ne: 1px blue dashed;
-}
+
 
 /* Dep */
 header {
@@ -23,7 +20,7 @@ header {
     height: 7vw;
     top: 0;
     left: 0;
-    backgr ound: #00000058;
+   
     color: black;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
@@ -58,7 +55,7 @@ body {
 }
 
 .introBakery {
-    backgrou nd-color: aquamarine;
+   
     margin-left: 200px;
     margin-top: 100px;
     
@@ -81,7 +78,7 @@ body {
 }
 
 .lowInfo {
-    background -color: brown;
+
     height: 50%;
     width: 50%;
     padding-left: 250px;
@@ -107,7 +104,7 @@ body {
 
 .deliciousBaking {
     margin-top: 50px;
-    backgro und-color: blueviolet;
+    
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -121,7 +118,7 @@ body {
 .menuContainer {
     display: flex;
     justify-content: center;
-    backgroun d-color: rgb(71, 158, 235);
+    
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -208,7 +205,7 @@ body {
 }
 
 .introReadmore {
-    backgro und-color: aqua;
+    
     margin-top: 150px;
     margin-left: 100px;
     
@@ -232,6 +229,6 @@ body {
 
 }
 
-.ourBreads {
-    
+
+
 }
