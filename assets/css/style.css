@@ -1,0 +1,237 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Dev */
+header,
+header * {
+    outli ne: 1px blue dashed;
+}
+
+/* Dep */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 5vw ;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 7vw;
+    top: 0;
+    left: 0;
+    backgr ound: #00000058;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+
+}
+
+body {
+    font-family: Arial, san-serif;
+}
+
+
+.bakeryPhoto {
+    margin-top: 93px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-bottom: 00px;
+    height: 550px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.introBakery {
+    backgrou nd-color: aquamarine;
+    margin-left: 200px;
+    margin-top: 100px;
+    
+
+    & h1 {
+        letter-spacing: 4px;
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+
+    & h2 {
+        letter-spacing: 2px;
+        font-size: 3.9rem;
+    }
+
+    & h3 {
+        font-size: .7rem;
+        font-weight: 100;
+    }
+}
+
+.lowInfo {
+    background -color: brown;
+    height: 50%;
+    width: 50%;
+    padding-left: 250px;
+    
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    & p {
+        margin-top: 20px;
+    }
+
+}
+
+.bakeryPhoto {
+        background-image: url(/assets/img/bakeryPhoto.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+
+}
+
+.deliciousBaking {
+    margin-top: 50px;
+    backgro und-color: blueviolet;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.menuContainer {
+    display: flex;
+    justify-content: center;
+    backgroun d-color: rgb(71, 158, 235);
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 150px;
+    display: grid;
+    gap: 200px;
+    grid-template-columns: repeat(3, 1fr)
+    
+  }
+
+.menu1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+  }
+
+  .menu2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+  }
+
+  .menu3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+  }
+
+  .menu4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+  }
+
+  .menu5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+  }
+
+  .menu6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: yellow;
+  }
+
+.readMore {
+    display: flex;
+    justify-content: end;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-bottom: 500px;
+    height: 100%;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+
+    & h3 {
+        font-size: 3rem;
+    }
+    
+    & h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        font-size: 1rem;
+        font-weight: 100;
+    }
+}
+
+.readMore {
+    background-image: url(/assets/img/readMorePic.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.introReadmore {
+    backgro und-color: aqua;
+    margin-top: 150px;
+    margin-left: 100px;
+    
+
+}
+
+.readMoreicon {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgba(137, 43, 226, 0);
+    outline: solid;
+    border-radius: 30px;
+
+    & p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+.ourBreads {
+    
+}
