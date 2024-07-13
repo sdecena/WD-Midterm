@@ -282,5 +282,5 @@ a.navigation:hover::before {
 
 
 a.navigation:active {
-    color: rgb(0, 200, 255);
+    color: rgb(0, 0, 0);
 }
