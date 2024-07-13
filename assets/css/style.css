@@ -6,10 +6,10 @@
     box-sizing: border-box;
 }
 
-/* Dev */
 
 
-/* Dep */
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -20,11 +20,25 @@ header {
     height: 7vw;
     top: 0;
     left: 0;
-   
     color: black;
     font-family: "Josefin Sans", sans-serif;
     font-weight: 400;
 
+}
+
+nav,
+.links a{
+    display: flex;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+
+}
+
+.links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 .icon {
@@ -55,10 +69,9 @@ body {
 }
 
 .introBakery {
-   
+
     margin-left: 200px;
     margin-top: 100px;
-    
 
     & h1 {
         letter-spacing: 4px;
@@ -82,7 +95,6 @@ body {
     height: 50%;
     width: 50%;
     padding-left: 250px;
-    
     padding-bottom: 200px;
     display: flex;
     flex-direction: row;
@@ -95,7 +107,7 @@ body {
 }
 
 .bakeryPhoto {
-        background-image: url(/assets/img/bakeryPhoto.jpg);
+        background-image: url(../img/bakeryPhoto.jpg);
         background-size: 100%;
         background-repeat: no-repeat;
 
@@ -104,7 +116,7 @@ body {
 
 .deliciousBaking {
     margin-top: 50px;
-    
+
     height: 100%;
     width: 100%;
     justify-content: center;
@@ -118,7 +130,7 @@ body {
 .menuContainer {
     display: flex;
     justify-content: center;
-    
+
     padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
@@ -126,7 +138,7 @@ body {
     display: grid;
     gap: 200px;
     grid-template-columns: repeat(3, 1fr)
-    
+
   }
 
 .menu1 {
@@ -185,7 +197,7 @@ body {
     & h3 {
         font-size: 3rem;
     }
-    
+
     & h2 {
         font-size: 3rem;
         margin-bottom: 20px;
@@ -198,17 +210,16 @@ body {
 }
 
 .readMore {
-    background-image: url(/assets/img/readMorePic.jpg);
+    background-image: url(../img/readMorePic.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    
+
 }
 
 .introReadmore {
-    
+
     margin-top: 150px;
     margin-left: 100px;
-    
 
 }
 
@@ -231,4 +242,45 @@ body {
 
 
 
+a.navigation:link {
+    color: rgb(0, 0, 0);
+  }
+
+
+a.navigation:visited {
+    color: rgb(0, 0, 0);
+}
+
+
+a.navigation:hover {
+    color: rgb(171, 84, 29);
+    transition: all 200ms ease;
+}
+
+
+a {
+    position: relative;
+}
+
+a.navigation::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+
+}
+
+a.navigation:hover::before {
+    transform: scaleX(1);
+}
+
+
+a.navigation:active {
+    color: rgb(0, 200, 255);
 }
